@@ -1,0 +1,4 @@
+numpy --数学库
+pandas--数据分析支持库
+matplotlib-图形
+temsorflow-deep learning

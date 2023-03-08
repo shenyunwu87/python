@@ -1,0 +1,24 @@
+alist=[10,20,30,40]
+alist.append(10) #后加一个字符
+print(alist)
+exaList=[30,20,10]
+alist.extend(exaList)#将exaList加到alist尾部
+print(alist)
+alist.insert(4,50)#将50插入到4位置
+print(alist)
+alist.remove(50)#删除首次出现的元素50
+print(alist)
+alist.pop(4)#删除4位置的的元素
+print(alist)
+print(alist.index(30))#第一个40的元素位置
+print(alist.count(30))#数30出现次数
+print(len(alist))#读取长度
+alist.append(0)
+alist.reverse()#反转整张列表
+print(alist)
+alist.sort()#排序
+print(alist)
+a=list("shen")#强制转换为列表
+a=range(1,10,2)#从1到10步长为2
+a=list(a)
+print(a)
